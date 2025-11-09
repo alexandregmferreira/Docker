@@ -22,5 +22,5 @@
 #### 03- Verificaremos agora se o container esta rodando 
 <ul>
 	<li> docker ps </li>
-	<img src="03.png"> 
+	<img src="img/03.png"> 
 </ul>
