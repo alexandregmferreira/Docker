@@ -30,6 +30,7 @@
 ### Instale o Docker 
 <ul>
 	<li> sudo apt install -y docker-ce docker-ce-cli containerd.io </li>
+	<li> <img src="05.png">
 </ul>
 
 ### Verifique a versão do docker instalada 
