@@ -1,4 +1,4 @@
-# 02 - Rodando uma imagem docker nginx 
+# 🐳02 - Rodando uma imagem docker nginx 
 
 #### 01- Primeiros vamos verificar se tem algum container rodando
 <ul>
