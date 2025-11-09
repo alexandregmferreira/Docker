@@ -1,4 +1,4 @@
-# 01 - Instalando o Docker
+# 🐳01 - Instalando o Docker
 
 =======
 
@@ -41,6 +41,7 @@
 <ul>
 	<li> sudo docker run hello-world </li>
 </ul>
+
 #### Se tudo ocorrer bem, você ira visualizar o retorno abaixo:
 	<img src="03.png">
 
