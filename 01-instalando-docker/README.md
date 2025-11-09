@@ -5,7 +5,7 @@
 ### Atualizando a distribuição
 <ul>
 	<li>sudo apt update && sudo apt upgrade -y</li>
-	<li> <img src="10.png"> </li>
+	<li> <img src="11.png"> </li>
 </ul>
 
 ### Instalando os pacotes necessários para o Docker
