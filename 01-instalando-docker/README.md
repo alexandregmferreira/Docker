@@ -16,8 +16,6 @@
 	<li>sudo install -m 0755 -d /etc/apt/keyrings</li>
 	<li>sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc</li>
 	<li>sudo chmod a+r /etc/apt/keyrings/docker.asc</li>
-	<li> echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \ </li>
+	<li> echo \"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \ $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \ </li>
 	<li><img src="03.png" alt="Ajustando permissões" title="ajustando permissões"></li>
 </ul>
