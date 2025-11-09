@@ -35,6 +35,7 @@
 ### Verifique a versão do docker instalada 
 <ul>
 	<li> docker --version </li>
+	<li> <img src="04.png">
 </ul>
 
 ### Teste o docker iniciando um contaiener hello world
