@@ -1,6 +1,6 @@
 # 🐳01 - Instalando o Docker
 
-=======
+---
 
 ### Atualizando a distribuição
 <ul>
@@ -43,5 +43,6 @@
 </ul>
 
 #### Se tudo ocorrer bem, você ira visualizar o retorno abaixo:
-	<img src="03.png">
+
+<img src="03.png">
 
