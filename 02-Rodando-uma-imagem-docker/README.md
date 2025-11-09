@@ -28,6 +28,6 @@
 #### 04- Agora que sabemos que o container está rodando, vamos fazer o teste via navegador 
 <ul>
 	<li> http://localhost:8080 </li>
-	<li> <img src="04.png" </li>
+	<li> <img src="img/04.png" </li>
 
 </ul>
