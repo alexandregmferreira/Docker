@@ -9,6 +9,7 @@
 #### 02 - Neste exemplo vamos usar uma imagem do docker hub, nginx 
 <ul>
 	<li> docker run -d --name nginx-teste -p 80:80 nginx
+
 		<ul>
 			<li>Usamos o parametro -d para rodar o container em segundo plano </li>
 			<li>Usamos o parametro --name para dar um nome ao container </li>
@@ -16,6 +17,8 @@
 			<li>Ao final do comando inserimos a imagem que queremos rodar </li>
 		</ul>
 
-		</li> 
+	</li> 
+
 	<li> <img src=""> </li>
 </ul>
+
