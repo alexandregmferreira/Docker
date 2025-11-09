@@ -1,7 +1,8 @@
 # 02 - Rodando uma imagem docker nginx 
 
-### 01 - Rodamos o comando docker ps para validar se temos algum container rodando.
+### 01 - Primeiros vamos verificar se tem algum container rodando
 <ol>
-	<li> <img src="01.png"> </li>
+	<li> docker ps </li>
+	<li> <img src="img/01.png"> </li>
 </ol>
 
