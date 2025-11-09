@@ -16,6 +16,6 @@
 			<li>Ao final do comando inserimos a imagem que queremos rodar </li>
 		</ul>
 	</li> 
-	<li> <img src=""> </li>
+	<li> <img src="02.png"> </li>
 </ul>
 
