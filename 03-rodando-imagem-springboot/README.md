@@ -67,10 +67,10 @@
         <img src="img/02-build.png">
 </ul>
 
-#### 04- Agora que sabemos que o container está rodando, vamos fazer o teste via navegador
+#### 04- Uma vez que a imagem foi construida, podemos agora utilizar o comando docker images para visualizar as imagens que temos localmente
 
 <ul>
-        <li> http://localhost:8080 </li>
-        <li> <img src="img/04.png" </li>
+        <li> docker images </li>
+        <li> <img src="img/04-dockerimages.png" </li>
 </ul>
 
