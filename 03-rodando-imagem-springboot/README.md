@@ -58,19 +58,28 @@
 </ul>
 
 
-#### 03- agora vamos rodar o comando docker build para criar a imagem 
-
+#### 03- Agora vamos rodar o comando docker build para criar a imagem 
 <ul>	
         <li> docker build -t <nome-da-imagem:versao> .</li>
-	<li> docker built -t springboot-teste:0.0.1 . <li>
+	<li> docker built -t springboot-test:001 . </li>
 	<li> este comando fará com que a imagem seja construida seguindo os parametros que inserimos acima... de cima para baixo.
-        <img src="img/02-build.png">
+        <li> <img src="img/02-build.png"> </li>
 </ul>
 
-#### 04- Uma vez que a imagem foi construida, podemos agora utilizar o comando docker images para visualizar as imagens que temos localmente
-
+#### 04- Uma vez que a imagem foi construida, podemos agora utilizar o comando docker images para visualizar as imagens que temos localmente.
 <ul>
         <li> docker images </li>
         <li> <img src="img/04-dockerimages.png" </li>
 </ul>
 
+
+#### 05- Agora vamos rodar o container com a imagem que criamos.
+<ul>	
+	<li> O comando -d serve para rodar o container em segundo plano. </li> 
+	<li> O comando -p serve para expor a porta "colcoar a mesma porta que utilizamos no dockerfile". </li>
+	<li> O comando --name serve para dar um nome ao container. </li>
+	<li> O comando springboot-test:0.0.1 é a imagem que criamos e queremos rodar em container. </li>
+	<li> docker run -d -p 8080:8080 --name img_springboot springboot-test:001 </li>
+	<li> Após executamos este comando iremos receber um hash informando que o container foi iniciado, mas para ter certeza rodamos também o docker ps </li>
+	<li> <img src="img/05-dockerrun.png"> </li>
+<ul>
