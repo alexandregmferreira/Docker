@@ -58,11 +58,13 @@
 </ul>
 
 
-#### 03- Verificaremos agora se o container esta rodando
+#### 03- agora vamos rodar o comando docker build para criar a imagem 
 
 <ul>	
-        <li> docker ps </li>
-        <img src="img/03.png">
+        <li> docker build -t <nome-da-imagem:versao> .</li>
+	<li> docker built -t springboot-teste:0.0.1 . <li>
+	<li> este comando fará com que a imagem seja construida seguindo os parametros que inserimos acima... de cima para baixo.
+        <img src="img/02-build.png">
 </ul>
 
 #### 04- Agora que sabemos que o container está rodando, vamos fazer o teste via navegador
