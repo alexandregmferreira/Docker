@@ -82,4 +82,15 @@
 	<li> docker run -d -p 8080:8080 --name img_springboot springboot-test:001 </li>
 	<li> Após executamos este comando iremos receber um hash informando que o container foi iniciado, mas para ter certeza rodamos também o docker ps </li>
 	<li> <img src="img/05-dockerrun.png"> </li>
+</ul>
+
+#### 06- Agora vamos testar o container 
 <ul>
+	<li> Podemos rodar o comando curl http://localhost:8080 para visualizar de dentro do container </li>
+	<li> <img src="06-curl.png"> </li>
+	<li> Podemos também realizar o teste atraves do navegador utilizando o mesmo endereço localhost http://localhost:8080 no qual receberemos o retorno abaixo >/li>
+	<li> <img src="07-localhostweb.png"> </li>
+</ul>
+
+
+#### 07- Dessa forma o exercicio estará finaliazdo.
