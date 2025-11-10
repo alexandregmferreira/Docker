@@ -1,4 +1,4 @@
-# 🐳02 - Rodando uma imagem spring boot
+# 🐳03 - Rodando uma imagem spring boot
 
 ### O que é Spring Boot?
 #### Spring Boot é um framework Java de código aberto que simplifica e acelera o desenvolvimento de aplicações web e microsserviços baseadas no Spring Framework
@@ -7,14 +7,13 @@
 
 
 
-#### 01- Primeiros vamos verificar se tem algum container rodando
+#### 01- Primeiros vamos realizar o download dos arquivos necessários para realizar o build
 
 <ul>
-        <li> docker ps </li>
+        <li> Neste caso vou usar o Maven  </li>
+	<li> a href="https://start.spring.io/#!type=maven-project&language=java&packaging=jar&jvmVersion=11&groupId=com.example&artifactId=spring-boot-docker&name=spring-boot-docker&description=Demo%20project%20for%20Spring%20Boot&packageName=com.example.spring-boot-docker&dependencies=web"></li>
         <li> <img src="img/01.png"> </li>
 </ul>
-
-#### 02- Neste exemplo vamos usar uma imagem do docker hub, nginx
 
 <ul>
         <li> docker run -d --name nginx-teste -p 80:80 nginx
