@@ -52,9 +52,8 @@
 		COPY --from=build /app/target/*.jar /app/app.jar
 
 		#Define o comando que será executado quando o container iniciar
-		CMD ["java", "-jar", "/app/app.jar"]
+		CMD ["java", "-jar", "/app/app.jar"] </li>
 	
-	</li>
 
 </ul>
 
