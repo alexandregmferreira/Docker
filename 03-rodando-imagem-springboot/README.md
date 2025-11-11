@@ -4,7 +4,7 @@
 #### Spring Boot é um framework Java de código aberto que simplifica e acelera o desenvolvimento de aplicações web e microsserviços baseadas no Spring Framework.
 #### Fonte: https://spring.io/guides/gs/spring-boot#initial
 
-### O que é imagem multi-stageMulti-stage build no Docker?
+### O que é imagem multi-stage build no Docker?
 #### Multi-stage build no Docker é uma funcionalidade que utiliza múltiplas instruções FROM no mesmo Dockerfile para criar imagens de contêiner menores e mais eficientes.
 
 
@@ -61,7 +61,7 @@
 #### 03- Agora vamos rodar o comando docker build para criar a imagem 
 <ul>	
         <li> docker build -t <nome-da-imagem:versao> .</li>
-	<li> docker built -t springboot-test:001 . </li>
+	<li> docker build -t springboot-test:001 . </li>
 	<li> este comando fará com que a imagem seja construida seguindo os parametros que inserimos acima... de cima para baixo.
         <li> <img src="img/02-build.png"> </li>
 </ul>
