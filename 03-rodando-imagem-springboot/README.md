@@ -60,7 +60,7 @@
 
 #### 03- Agora vamos rodar o comando docker build para criar a imagem 
 <ul>	
-        <li> docker build -t <nome-da-imagem:versao> .</li>
+        <li> docker build -t nome-da-imagem:versao .</li>
 	<li> docker build -t springboot-test:001 . </li>
 	<li> este comando fará com que a imagem seja construida seguindo os parametros que inserimos acima... de cima para baixo.
         <li> <img src="img/02-build.png"> </li>
